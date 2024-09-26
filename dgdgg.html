@@ -1,0 +1,27 @@
+<div id="gameMenu">
+    <h1>Flappy Tamjid</h1>
+    <button id="startGameBtn">Start Game</button>
+    <button id="chooseLevelBtn">Choose Level</button>
+    <button id="instructionsBtn">Instructions</button>
+</div>
+
+<div id="levelMenu" style="display: none;">
+    <h2>Choose Your Level</h2>
+    <button class="levelBtn" data-level="1">Easy</button>
+    <button class="levelBtn" data-level="2">Medium</button>
+    <button class="levelBtn" data-level="3">Hard</button>
+</div>
+
+<div id="instructionsMenu" style="display: none;">
+    <h2>Instructions</h2>
+    <p>Press Spacebar or tap to make the bird fly. Avoid pipes!</p>
+    <button id="backBtn">Back</button>
+</div>
+
+<canvas id="gameCanvas" width="500" height="600" style="display: none;"></canvas>
+
+<div id="gameOverScreen" style="display: none;">
+    <h2>Game Over!</h2>
+    <p id="scoreDisplay">Score: 0</p>
+    <button id="restartBtn">Restart Game</button>
+</div>
